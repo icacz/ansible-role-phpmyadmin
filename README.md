@@ -47,9 +47,9 @@ The username and password with which phpMyAdmin will attempt to log into the MyS
 
     - hosts: utility
       vars_files:
-        - vars/main.yml
+       - vars/main.yml
       roles:
-        - { role: geerlingguy.phpmyadmin }
+       - { role: geerlingguy.phpmyadmin }
 
 *Inside `vars/main.yml`*:
 
